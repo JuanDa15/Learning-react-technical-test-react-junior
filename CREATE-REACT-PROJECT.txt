@@ -1,0 +1,16 @@
+THIS DOCUMENT IS TO PRACTICE HOW TO CREATE A REACT PROJECT FROM A VANILLA VITE TEMPLATE
+
+1 - npm create @vite@latest
+2 - select 
+	vanilla - javascript
+3 - after creation, go into the project and install the vite react-plugin
+	 npm install @vitejs/plugin-react -E
+4 - install react , react-dom
+5 - Create vite.config.js file and set the project configurations
+6 - configure the application entry point
+7 - When the app render something, install linter
+	npm install standard -D
+8 - config linter in package.json
+	  "eslintConfig": {
+			"extends": "./node_modules/standard/eslintrc.json"
+		}
